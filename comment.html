@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./style/style_comment.css">
+    <title>Publicações</title>
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo">TUDO SOBRE COMIDA</h1>
+    </header>
+
+    <nav id="barra_de_navegação">
+        <a href="index.html" class="links">Início</a>
+        <a href="prato_do_dia.html" class="links">Prato do dia</a>
+        <a href="publi.html" class="links">Publicações</a>
+        <a href="comment.html" class="links">Discussões</a>
+        <a href="https://www.youtube.com/watch?v=cWvYmFTMoQ4" target="_blank" class="links">Contatos</a>
+    </nav>
+
+    <main>
+        <section id="comments_area">
+            <h2>Deixe seu comentário</h2>
+                <label for="name">Seu nome:</label>
+                <input type="text" id="nameid" name="name" placeholder="Digite seu nome" required>
+            <br>
+                <label for="food">Prato:</label>
+                <input type="text" id="foodid" name="dish" placeholder="Digite o prato" required>
+            <br>
+                <label for="comment">Comentário:</label>
+                <textarea id="commentid" name="comment" rows="4" placeholder="Digite seu comentário" required></textarea>
+                <button type="submit">Enviar</button>
+            </section>
+        
+        <section class="comments">
+              <h2>Comentários</h2>
+
+                <h3 class="comment"> &#x1F355 Pizza</h3>
+                <p>“A pizza é uma explosão de sabores em cada fatia, perfeita para compartilhar com amigos!”</p>
+                <span><strong>- João</strong></span>
+
+                <h3 class="comment">&#x1F354 Hambúrguer</h3>
+                <p>“Nada supera um hambúrguer suculento com bacon e queijo derretido.”</p>
+                <span><strong>- Maria</strong></span>
+            </section>
+    </main>
+
+    <footer>
+        <p>Site idealizado e criado por <a href="https://github.com/ArthurSantn">Arthur Pereira Santana</a></p>
+    </footer>
+</body>
+</html>
